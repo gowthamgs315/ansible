@@ -6,4 +6,7 @@
     apt:
      name: apache2
      state: present
-     
+  - name: i want o install apache2
+    service:
+     name: apache2
+     state: started
