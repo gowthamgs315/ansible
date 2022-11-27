@@ -20,6 +20,6 @@
   - name: start httpd
     service:
      name: "{{webpackonredhat}}"
-     state: present 
+     state: started 
     when: ansible_os_family=="RedHat"
 
