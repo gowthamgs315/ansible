@@ -2,5 +2,5 @@
 webpackonubuntu: apache2
 webpackonredhat: httpd
 
-javaonubuntu: openjdk-8-jdk
-javaonredhat: java-1.8.0-openjdk
+myjavaonubuntu: openjdk-8-jdk
+myjavaonredhat: java-1.8.0-openjdk
