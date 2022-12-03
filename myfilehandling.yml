@@ -8,5 +8,6 @@
       name: apache2
   - name: wnt to copy statuc fuke to ansibke node
     copy:
-     src: mystatuc.txt
+     src: mystatic.txt
      dest: /home/maha/mystatic.txt
+ 
