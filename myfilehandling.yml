@@ -6,4 +6,7 @@
   - name: install webserevr
     apt:
       name: apache2
-    
+  - name: wnt to copy statuc fuke to ansibke node
+    copy:
+     src: mystatuc.txt
+     dest: /home/maha/mystatic.txt
