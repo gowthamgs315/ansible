@@ -10,4 +10,5 @@
     apt:
      name: tree
      sstate: present
+     ignore_errors: yes
   
