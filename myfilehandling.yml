@@ -21,8 +21,9 @@
       url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.tar.gz
       dest: /home/maha/ 
       force_basic_auth: yes
+ 
   handlers:
   - name: restartwebserevr
     service:
-     name: apache2
-     state: restarted
+      name: apache2
+      state: restarted
