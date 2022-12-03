@@ -24,4 +24,4 @@
   - name: restartwebserevr
     service:
      name: apache2
-     state: present
+     state: restart
