@@ -4,8 +4,8 @@
   tasks:
   - name: install git
     apt: git
-    sstate: present
+    state: present
   - name: install tree
     apt: tree
-    state: present
+    sstate: present
   
