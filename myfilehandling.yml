@@ -10,4 +10,8 @@
     copy:
      src: mystatic.txt
      dest: /home/maha/mystatic.txt
- 
+  - name: dyno faile copy
+    template:
+     src: mydynofile.j2
+     dest: /var/www/html/index.html
+     
