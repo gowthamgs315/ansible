@@ -14,4 +14,7 @@
     template:
      src: mydynofile.j2
      dest: /var/www/html/index.html
-     
+  - name: i wnat to download remote fiels
+    get_url:
+      url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.tar.gz
+      dest: /home/maha/ 
