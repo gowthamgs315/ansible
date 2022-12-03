@@ -10,7 +10,7 @@
     copy:
      src: mystatic.txt
      dest: /home/maha/mystatic.txt
-    notify: restartwebserevr
+     notify: restartwebserevr
   - name: dyno faile copy
     template:
      src: mydynofile.j2
