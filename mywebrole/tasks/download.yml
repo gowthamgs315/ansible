@@ -1,0 +1,14 @@
+---
+- name: download tomcat tar file
+  get_url:
+    url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.tar.gz
+    dest: /home/ubuntu/
+    force_basic_auth: yes
+- name: create folder
+  file:
+    path: /opt/tomat
+    state: directory
+- name: extract the tar file
+  command:
+    cmd: sudo tar xzvf apache-tomcat-*tar.gz -C /opt/tomcat
+    creates: /opt/tomat/LICENSE
