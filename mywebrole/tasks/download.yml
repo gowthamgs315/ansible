@@ -11,4 +11,4 @@
 - name: extract the tar file
   command:
     cmd: sudo tar xzvf apache-tomcat-9.0.70.tar.gz -C /opt/tomcat
-    creates: /opt/tomat/LICENSE
+    creates: /opt/tomcat/LICENSE
