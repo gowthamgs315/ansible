@@ -6,7 +6,7 @@
     force_basic_auth: yes
 - name: create folder
   file:
-    path: /opt/tomat
+    path: /opt/tomcat
     state: directory
 - name: extract the tar file
   command:
